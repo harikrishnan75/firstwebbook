@@ -1,0 +1,107 @@
+.container {
+    width: 200px;
+    height: 700px;
+    
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    
+    
+}
+.hh {
+    
+    color: black;
+    
+    
+h1 {
+    color: rgb(14, 2, 11);
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 20px;
+}
+}
+p {
+    color: gray;
+    font-style: italic;
+
+}
+a {
+    text-decoration-line: none;
+}
+input {
+    padding: 11px;
+    margin: 10px 10px 20px 10px;
+    background-color: #fff;
+    width: 240px;
+    padding-left: 10px;
+    
+
+    
+    
+}
+input:hover{
+    border: 3px solid black;
+    padding: 12px;
+    transition: border 0.4s ease-in-out;
+
+}
+input:focus {
+    border: 3px solid red;
+    font-style: italic;
+}
+.box {
+    padding: 10px 50px;
+    
+    
+}
+fieldset {
+    box-shadow: 3px 4px 6px black;
+    height: 600px;
+
+}
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+button {
+    background-color: rgb(95, 11, 231);
+    color: #fff;
+    padding: 10px;
+    margin:  20px 10px;
+    align-items: center;
+    position: absolute;
+    left: 133px;
+    width: 100px;
+}
+legend {
+    font-size: 22px;
+    font-style: italic;
+    color: blue;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+li {
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    color: saddlebrown;
+}
+li:hover {
+    color: blue;
+    font-size: 21px;
+    cursor: context-menu;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#fff {
+    margin-left: 10px;
+    width: 260px;
+
+}
